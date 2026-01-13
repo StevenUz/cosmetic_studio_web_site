@@ -38,6 +38,16 @@ header {
     color: #FF9500;
 }
 
+.logo-link {
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo-link:hover {
+    transform: scale(1.05);
+}
+
 nav ul {
     display: flex;
     list-style: none;
