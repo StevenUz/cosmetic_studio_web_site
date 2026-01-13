@@ -33,6 +33,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    gap: 2rem;
 }
 
 .logo {
@@ -49,6 +50,39 @@ header {
 
 .logo-link:hover {
     transform: scale(1.05);
+}
+
+/* Language Selector */
+.language-selector {
+    display: flex;
+    gap: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.lang-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid transparent;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #FF9500;
+}
+
+.lang-btn.active {
+    background-color: #FF9500;
+    color: #1B5E20;
+    border-color: #FF9500;
 }
 
 nav ul {
